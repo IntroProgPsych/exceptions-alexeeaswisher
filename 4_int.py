@@ -35,8 +35,7 @@ def read_input (prompt, lower, upper):
     while True:
         try:
             user_input = int(input(prompt))
-            value = int(user_input)
-
+           
             if value < lower or value > upper:
                 print (f"The number must be between {lower} and {upper}.")
             else:
