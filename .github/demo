@@ -1,0 +1,15 @@
+
+# 1.try 2.except 3.else 4.finally
+
+try:
+    number = int(input("Type in a number: "))
+except ValueError:
+    print ("You need to type a number")
+except ZeroDivisionError: 
+    print("you can't divide by zero")
+except:
+    print("something went wrong")
+else:
+    print("All is good")
+finally: 
+    print("this is the end !!! ")
