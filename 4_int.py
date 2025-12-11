@@ -31,6 +31,7 @@ upper = 10
 67
 
 
+
 def read_input (prompt, lower, upper):
     while True:
         try:
